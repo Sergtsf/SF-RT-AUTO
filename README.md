@@ -37,7 +37,9 @@ python -m pytest -v --driver Chrome --driver-path D:/chromedriver.exe tests/test
 
 !!!ВАЖНО!!!
 В config.py необходимо ввести свои валидные данные для авторизации на сайте.
+
 valid_email = ""
+
 valid_pass = ""
 
 В config_for_test.py необходимо указать свой путь для веб драйвера.  
