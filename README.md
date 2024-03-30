@@ -25,7 +25,7 @@
 
 8. Активно использовался DevTools для написания автотестов и мониторинга времени загрузки страниц.
 
-Сроки запуска (путь веб драйвера указать свой):
+Сроки запуска (путь к веб драйверу указать свой):
 
 python -m pytest -v --driver Chrome --driver-path D:/chromedriver.exe tests/test_auth_buttons.py
 
@@ -42,5 +42,5 @@ valid_email = ""
 
 valid_pass = ""
 
-В config_for_test.py необходимо указать свой путь для веб драйвера.  
+В config_for_test.py необходимо указать свой путь к веб драйверу.  
    
